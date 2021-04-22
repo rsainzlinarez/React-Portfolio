@@ -1,0 +1,16 @@
+.aboutCard{
+    background-color: transparent;
+    color:white;
+    margin: auto;
+    margin-top: 200px;
+    border-Left: 10px;
+    border-right: 5px;
+    border-color: blue;
+    border-style: solid;
+    border-radius: 50px;
+
+    
+}
+body{
+    background-color: black;
+}
