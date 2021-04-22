@@ -7,15 +7,17 @@ import '../About/About.css';
  function AboutCard () {
     return (
         
-<Card className= "aboutCard" style={{ width: '18rem' }}>
-  <Card.Img variant="top" src={Self} />
+<Card className= "aboutCard">
+  <Card.Img className="image" variant="top" src={Self} />
   <Card.Body>
     <Card.Title>Card Title</Card.Title>
     <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
+    <div>My name is Ruben. I am currently studying web development because I have had a interest in technology, computers, and the cyber space. In today's modern age in society, it is imperative to at least have an understanding about programing in order to keep up with the fast-changing world. Learning how to build websites will open the door to other opportunities that have not explored, therefore, I am very excited to become a web developer and put my skills to work.</div>
+
+
+    <div>Some of my hobbies include: workingout, dancing, reading, learning, spending time with friends and family, cooking, and watching movies.</div>
     </Card.Text>
-    <Button variant="primary">Go somewhere</Button>
+    <Button className="cardButton" variant="primary">Go somewhere</Button>
   </Card.Body>
 </Card>
   

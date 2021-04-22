@@ -9,6 +9,8 @@
     border-style: solid;
     border-radius: 50px;
     width: 500px;
+    display: flex;
+	flex-direction: column;
 
     
 }

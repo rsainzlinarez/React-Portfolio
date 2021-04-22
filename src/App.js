@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import About from './Components/Pages/About/About';
-import Portfolio from './Components/Pages/Portfolio';
+import Portfolio from './Components/Pages/Portfolio/Portfolio';
 import Contact from './Components/Pages/Contact';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
