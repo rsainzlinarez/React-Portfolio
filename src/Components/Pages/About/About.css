@@ -8,17 +8,22 @@
     border-color: blue;
     border-style: solid;
     border-radius: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
     width: 500px;
-
+    transform: rotateX(6.142rad);
     
 }
 .cardButton{
-    margin-left: 150px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+ 
     background-color: blue;
 }
 .image{
     border-radius: 45px;
 }
 body{
-    background-color: black;
+    background-image: linear-gradient( to right, black , rgb(90, 90, 235),black);
 }

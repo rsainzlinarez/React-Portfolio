@@ -1,16 +1,18 @@
-.aboutCard{
+body{
+    background-color: blue;
+}
+.portfolioCards{
     background-color: transparent;
     color:white;
     margin: auto;
     margin-top: 60px;
-    border-Left: 10px;
-    border-right: 5px;
-    border-color: blue;
-    border-style: solid;
+    transform: rotateX(6.142rad);   
+    border-bottom-color: blue;
+   border-bottom-width: 5px;
     border-radius: 50px;
     width: 500px;
     display: flex;
-	flex-direction: column;
+
 
     
 }
@@ -19,6 +21,7 @@
     background-color: blue;
 }
 .image{
+    background-color: blue;
     border-radius: 45px;
 }
 body{

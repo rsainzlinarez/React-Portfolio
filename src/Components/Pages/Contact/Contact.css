@@ -1,0 +1,35 @@
+.contactCard{
+    width: 800px;
+    margin-right: 250px;
+    margin-top: 200px;
+    color: white;
+    float:right;
+    border-right: solid;
+   border-bottom: solid;
+   border-radius: 20px;
+    border-width:5px;
+    border-color: blue;
+    padding: 50px;
+}
+
+.inputField{
+    background-color: transparent;
+}
+
+.contact-info{
+
+margin-top: 200px;
+margin-left: 250px;
+float:left;
+width:500px;
+height: 617px;
+border-left: solid;
+border-top: solid;
+border-radius: 20px;
+ border-width:5px;
+ border-color: blue;
+ padding: 50px;
+}
+body{
+    background-image: linear-gradient( to right, black , rgb(38, 61, 52),black);
+}

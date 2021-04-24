@@ -7,7 +7,7 @@ import WeatherDash from '../../Images/weather-Dashboar.png';
 import Crypto from '../../Images/Crypto-Investment-Tracker.JPG';
 import NoteTaker from '../../Images/note-taker.JPG';
 import { Card, Button,} from 'react-bootstrap';
-import '../About/About.css';
+import '../Portfolio/Portfolio.css';
 // import { CoolCard, CoolCardImage, CoolCardText } from "react-cool-card";
  
  function Portfolio () {
@@ -25,22 +25,19 @@ import '../About/About.css';
   const renderCard = (card, index) => {
     return (
         
-   <Card className= "aboutCard" key={index}>
+   <Card className= "portfolioCards" key={index}>
      <Card.Img className="image" variant="top" src={card.image} />
      <Card.Body >
-       <Card.Title>{card.image}</Card.Title>
+       
        <Card.Text>
         {card.text}
        </Card.Text>
        <Button className="cardButton" variant="primary">Go somewhere</Button>
      </Card.Body>
    </Card>
-   
-   
-   
        )
   }
-  return <div className='aboutCard'> 
+  return <div className='portpolioCards'> 
   {cardInfo.map(renderCard)}
   
   </div>;
