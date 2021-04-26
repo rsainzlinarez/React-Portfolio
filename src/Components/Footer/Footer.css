@@ -1,0 +1,26 @@
+.footer{
+    background-color:transparent;
+    color: white !important;
+    margin: auto;  
+    border-top-style: solid;
+    border-top-color: blue;
+   border-top-width: 5px;
+    border-radius: 50px;
+    /* position: 80%; */
+    margin-top:100vmin;
+    
+     /* bottom: 0%; */
+    
+}
+
+.text{
+    color: white !important;
+    margin: auto;
+    padding-left: 50px;
+    
+}
+
+.links{
+    
+    float: right;
+}

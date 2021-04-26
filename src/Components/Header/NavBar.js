@@ -8,8 +8,8 @@ export default function NavBar() {
             <Navbar className= "navBar" expand="lg">
   <Navbar.Brand className= "text" href="/">Ruben Sainz</Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
-  <Navbar.Collapse id="basic-navbar-nav">
-    <Form inline>
+  <Navbar.Collapse  id="basic-navbar-nav">
+    <Form inline className="links">
     <Nav className="text mr-auto">
       <Nav.Link className= "text" href="/">Home</Nav.Link>
       <Nav.Link className= "text" href="/Portfolio">Portfolio</Nav.Link>

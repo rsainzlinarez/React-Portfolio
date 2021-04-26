@@ -6,9 +6,16 @@
     border-bottom-color: blue;
    border-bottom-width: 5px;
     border-radius: 50px;
+    
 }
 
 .text{
     color: white !important;
+    float:right;
     
+}
+
+.links{
+    
+    float: right;
 }

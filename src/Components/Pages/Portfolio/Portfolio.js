@@ -13,18 +13,18 @@ import '../Portfolio/Portfolio.css';
  function Portfolio () {
 
   const cardInfo = [
-    {image: Self, title: 'prueba', text: 'teskkkkkt'},
-    {image: PasswordImg, title: 'test2', text: 'One one one'},
-    {image: GroupPro, title: 'test3', text: 'there eis'},
-    {image: WeatherDash, title: 'test4', text: 'test'},
-    {image: Crypto, title: 'test4', text: 'test'},
-    {image: NoteTaker, title: 'test4', text: 'test'},
+    {image: Self, link: 'https://github.com/rsainzlinarez/Website-Optimization', title: 'Website Optimization'},
+    {image: PasswordImg, link: 'https://github.com/rsainzlinarez/Random-Password-Generator', title: 'Password Generator'},
+    {image: GroupPro, link: 'https://github.com/rsainzlinarez/entertainment-lists', title: 'Entertainment List'},
+    {image: WeatherDash, link: 'https://github.com/rsainzlinarez/Weather-Dashboard', title: 'Weather Dashboard'},
+    {image: Crypto, link: 'https://github.com/team-crypto-currency/crypto-investment-tracker',  title: 'Crypto Investment Tracker'},
+    {image: NoteTaker, link: 'https://github.com/rsainzlinarez/Note-Taker', title: 'Note Taker'},
    
   ];
 
   const renderCard = (card, index) => {
     return (
-        
+    
    <Card className= "portfolioCards" key={index}>
      <Card.Img className="image" variant="top" src={card.image} />
      <Card.Body >
@@ -32,7 +32,7 @@ import '../Portfolio/Portfolio.css';
        <Card.Text>
         {card.text}
        </Card.Text>
-       <Button className="cardButton" variant="primary">Go somewhere</Button>
+       <Button className="cardButton" href={card.link} variant="primary">{card.title}</Button>
      </Card.Body>
    </Card>
        )

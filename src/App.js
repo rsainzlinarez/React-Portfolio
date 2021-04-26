@@ -4,6 +4,7 @@ import Portfolio from './Components/Pages/Portfolio/Portfolio';
 import Contact from './Components/Pages/Contact/Contact';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import NavBar from './Components/Header/NavBar';
+import Footer from './Components/Footer/Footer';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         </Switch>
    
     </Router>
+    <div><Footer/></div>
   </>
   );
 }

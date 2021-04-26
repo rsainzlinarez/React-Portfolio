@@ -17,12 +17,14 @@ body{
     
 }
 .cardButton{
-    margin-left: 150px;
-    background-color: blue;
+    margin: 'auto';
+    background-image: linear-gradient( to right, black , rgb(55, 87, 40),black);
+    border-radius: 50px;
+    
 }
 .image{
     background-color: blue;
-    border-radius: 45px;
+    border-radius: 50px;
 }
 body{
     background-color: black;
