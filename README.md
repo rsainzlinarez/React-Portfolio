@@ -4,6 +4,8 @@
   - [Motivation](#Motivation)
   - [Installation](#Installation)
   - [Usage](#Usage)
+  - [Link] (#Link To Site)
+  - [Screenshot](#Screenshot)
   - [Repository](#Repository)
   - [Contributors](#Contributors)
   - [License](#License)
@@ -26,6 +28,14 @@
 
   ## Usage
     This application allows users to see the work I have done and takes them directly to the GitHub repositories. 
+
+  
+  ## Link
+  [React Portfolio](https://react-portfolio-rsl.herokuapp.com/)
+
+  ## Screenshot
+ ![Screenshot 2021-05-02 19 12 44](https://user-images.githubusercontent.com/71811501/116836183-6abc0980-ab7a-11eb-9a0c-7dd9efadd403.png)
+
 
   ## Repository
     React-Portfolio
